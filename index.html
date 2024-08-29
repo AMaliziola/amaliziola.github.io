@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Maliziola - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-contents">
+            <h1>Alexander Maliziola</h1>
+            <p>
+                Hello! I am a graduate student currently attending Georgia Tech's OMSCS program; I graduated
+                from Montana State University in 2024 with a Bachelor of Science in Computer Science. This website
+                intends to showcase the variety of projects that I completed during my time at MSU.
+            </p>
+            <p2>
+                NOTE: These projects (barring this website) are sourced from my educational Github account, not my personal account.
+            </p2>
+        </div>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="grid-item open-dialog" data-project="1">
+                <h3>Database Manager</h3>
+                <p>
+                    This Java-based Database manager was created by myself and four other peers in an unsupervised
+                    Agile environment over the course of a semester. Its intended usage was to act as a management
+                    system for a charity in town, allowing them to track changes in information regarding the tenants they
+                    housed (their current system is a very messy set of Google spreadsheets). While we were not selected for usage,
+                    we nevertheless received high marks on our project.
+
+                    I contributed heavily to the UI design of the program, and wrote the entire documentation.
+                </p>
+            </div>
+            <div class="grid-item" data-project="2">
+                <h3>Recursive-Descent Compiler</h3>
+                <p>
+                    As a capstone, I completed a pre-made but unfinished Java-based Recursive-Descent Compiler using
+                    test-driven development. I have included the documentation portfolio of this project, as the amount
+                    of supporting code not sourced by me would render the source code almost impossible to parse through
+                    at a glance. 
+                </p>
+            </div>
+            <div class="grid-item" data-project="3">
+                <h3>Raspberry Pi Robot</h3>
+                <p>
+                    A robotics class tasked me to work with two peers in an unsupervised environment to program a Robot; required tasks
+                    included UWB sensor navigation, on-screen action programming, and ChatGPT-powered speech recognition and order-following.
+                </p>
+            </div>
+            <div class="grid-item" data-project="4">
+                <h3>Tailwind CSS Demo</h3>
+                <p>
+                    I created a demo of Tailwind CSS with a peer for a Web Development course; it highlights various functions of Tailwind
+                    and includes various Javascript functions for different site features.
+                </p>
+            </div>
+            <div class="grid-item" data-project="5">
+                <h3>Portfolio Website</h3>
+                <p>
+                    I created this website to host my portfolio. It is based in HTML, CSS, and Javascript, with the latter one being used 
+                    for the selection dialogue on the Database Manager button. 
+                </p>
+            </div>
+        </div>
+    </main>
+    <div id="dialog" class="dialog">
+        <div class="dialog-content">
+            <span id="close-dialog" class="close-button">&times;</span>
+            <h3>Choose an option</h3>
+            <button id="documentation-btn">View Documentation</button>
+            <button id="sourcecode-btn">View Source Code</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
