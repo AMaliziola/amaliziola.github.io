@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
             sourcecode: 'https://github.com/alex-maliziola/final_tailwind'
         },
         5: {
-            documentation: 'https://example.com/portfolio-docs',
-            sourcecode: 'https://github.com/alexander-maliziola/portfolio-website'
+            documentation: 'https://github.com/AMaliziola/amaliziola.github.io',
+            sourcecode: 'https://github.com/AMaliziola/amaliziola.github.io'
         }
     };
 
